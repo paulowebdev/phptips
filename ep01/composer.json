@@ -1,0 +1,28 @@
+{
+  "name": "paulowebdev/phptips",
+  "description": "Conhecendo o composer e Configurando a IDE | phptips #001",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Paulo Marcelo Gonçalves",
+      "email": "p.marcelo92@gmail.com",
+      "role" : "Developer",
+      "homepage" : "https://043sites.com.br"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "pst-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "require": {
+    "coffeecode/datalayer": "1.1.8"
+  }
+}
